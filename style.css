@@ -1,0 +1,44 @@
+body {
+    background-image: url("/Resources/mybg.jpg");
+    background-repeat: no-repeat;
+}
+
+#heading {
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: xx-large;
+    text-shadow: 3px 3px #38050550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    display: flex;
+    padding-left: 15px; 
+    color: rgb(255, 255, 255); 
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+h4 {
+    display: flex;
+    padding-left: 15px; 
+    color: rgb(255, 255, 255); 
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+.profilePic {
+    float: left;
+    display: inline;
+    border: 3px solid;
+    width: 150px;
+    height: 150px;
+    border-color: #8a0707;
+    border-radius: 50px;
+}
+
+#pic_cards{
+    display: inline;
+    height: auto;
+    width: 33%;
+}
