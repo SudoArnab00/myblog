@@ -1,6 +1,5 @@
 body {
-    background-image: url("/Resources/mybg.jpg");
-    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgb(165, 124, 241), rgb(222, 204, 247));
 }
 
 #heading {
@@ -40,5 +39,7 @@ h4 {
 #pic_cards{
     display: inline;
     height: auto;
-    width: 33%;
+    width: 32%;
+    border: 1.2px solid white;
+    border-radius: 8px;
 }
